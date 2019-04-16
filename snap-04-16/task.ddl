@@ -11,8 +11,3 @@ taskDescription VARCHAR(256),
 primary key (taskId)
 );
 
-/*Question 2
-SELECT tweetContent FROM tableTweet;
-SELECT FROM table`like` WHERE likeProfileId = UNHEX("0536faef082b454e9d444cdbe7887d7a")
- */
-
