@@ -30,3 +30,37 @@ li.my-item {
 	height: 200px;
 	margin: 25px;
 }
+
+/**
+Snap challenge answers
+Question #1 & 2
+
+.my-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+
+  flex-flow: row wrap;
+  justify-content: space-around;
+ }
+
+.my-item {
+  background: tomato;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+
+  width: 200px;
+  height: 150px;
+  padding: 5px;
+  margin-top: 10px;
+
+  Total width and height = 210x170
+
+}
+ */
