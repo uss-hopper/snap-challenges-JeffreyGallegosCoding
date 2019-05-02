@@ -14,8 +14,19 @@ li {
 	text-align: center;
 }
 
-.class.my-list {
+li.my-item {
 	box-sizing: border-box;
 	padding: 5px;
 	margin-top: 10px;
+}
+
+ul.my-list {
+	display: flex;
+	height: 300px;
+}
+
+li.my-item {
+	width: 250px;
+	height: 200px;
+	margin: 25px;
 }
