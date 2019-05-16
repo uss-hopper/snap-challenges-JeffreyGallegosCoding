@@ -189,3 +189,29 @@ var people = [{
 		"bs": "target end-to-end models"
 	}
 }];
+
+/**First Attempt worked but not in the correct way
+ *
+const map1 = people.map(function(person) {
+	delete person.address;
+});
+
+console.log(map1);
+
+console.log(people);
+ */
+
+//Answer to snap challenge - remove address field using the map array prototype
+/**
+ * map creates a new array and does what we tell it to do
+ */
+function removeAddress() {
+	const mapApproach = people.map((a) => {
+		delete a.address;
+		return a;
+	});
+	console.table(mapApproach);
+}
+
+removeAddress();
+//console.table(people);
