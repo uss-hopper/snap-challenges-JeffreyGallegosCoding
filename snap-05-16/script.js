@@ -51,7 +51,7 @@ var people = [{
 	"phone": "1-463-123-4447",
 	"website": "ramiro.info",
 	"company": {
-		"name": "Romaguer-Jacobson",
+		"name": "Romaguera-Jacobson",
 		"catchPhrase": "Face to face bifurcated interface",
 		"bs": "e-enable strategic applications"
 	}
@@ -189,31 +189,3 @@ var people = [{
 		"bs": "target end-to-end models"
 	}
 }];
-
-
-//answer to the snap challenge - Using a foreach loop on the array below, remove the company index from each object.
-//control-shift-f will format your code
-//use the . to identify which part of the array specifically you would like to identify
-//people is the array name, person is the new variable to identify the company
-
-people.forEach(function(person) {
-	//console.log(person.company);
-	delete person.company;
-	//console.log(person.company);
-});
-
-//Expected output: list of people without companies
-console.log(people);
-//attempts
-
-/**array1.forEach(function(company){
-	console.log(company);
-});**/
-
-/**arr.forEach(function callback(currentValue [, company [, array]]) {
-	//your iterator
-}[, thisArg]);
- **/
-
-//answer to the snap challenge - Using a foreach loop on the array below, remove the company index from each object.
-//control-shift-f will format your code
